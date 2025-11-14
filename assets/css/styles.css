@@ -1,0 +1,40 @@
+html {
+    font-size: 100%; /* Default size: 16px */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6rem; /* 5 x 16 = 80px */
+    padding: 1.25rem;
+    color: black;
+    background-color: beige;
+    text-align: center;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 30% 0 30%;
+}
+
+button {
+    margin-bottom: 2.5rem;
+    background-color: red;
+    color: white;
+    border: solid black .15rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: ease-in-out 0.2s; 
+    font-size: 30%;
+    word-wrap: break-word;
+    height: 6rem;
+}
+
+button:hover {
+    background-color: green;
+    scale: (1.1);
+}
