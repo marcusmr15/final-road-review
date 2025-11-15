@@ -9,5 +9,5 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // PDF File button
     const PDFFileBtn = document.querySelector('#pdfFile');
-    PDFFileBtn.addEventListener('click', () => {window.open('pathToFile', '_blank')});
+    PDFFileBtn.addEventListener('click', () => {window.open('./assets/pdf/Final Road Review.pdf', '_blank')});
 });
