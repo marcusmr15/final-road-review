@@ -4,8 +4,9 @@ html {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 6rem; /* 5 x 16 = 80px */
+    font-size: 5.5rem; /* 5 x 16 = 80px */
     padding: 1.25rem;
+    padding-top: 3rem;
     color: black;
     background-color: beige;
     text-align: center;
@@ -18,7 +19,7 @@ h1 {
 section {
     display: flex;
     flex-direction: column;
-    padding: 5% 30% 0 30%;
+    padding: 5% 20% 0 20%;
 }
 
 button {
@@ -29,9 +30,9 @@ button {
     border-radius: .2rem;
     cursor: pointer;
     transition: ease-in-out 0.2s; 
-    font-size: 30%;
-    word-wrap: break-word;
-    height: 6rem;
+    font-size: 25%;
+    padding: 2rem;
+
 }
 
 button:hover {
